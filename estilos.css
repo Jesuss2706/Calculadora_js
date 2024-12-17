@@ -1,0 +1,31 @@
+body{
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.num{
+
+    background-color: rgba(39, 118, 187, 0.274);
+    width: 100%;
+}
+.Titulo{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.calculadora{
+    text-align: center;
+    border: 2px solid rgb(113, 80, 231);
+}
+
+.operador{
+    background: blue;
+
+}
+
+
+.Calc{
+
+    background: aquamarine;
+    width: 55px;
+}
