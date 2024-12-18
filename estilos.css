@@ -1,31 +1,79 @@
 body{
-
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(25, 35, 81);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 500px;
+    margin: 0;
 }
 
-.num{
+.calculator{
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(122, 122, 122);
+    width: 300px;
+}
 
-    background-color: rgba(39, 118, 187, 0.274);
+.resultado{
+
     width: 100%;
-}
-.Titulo{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    height: 60px;
+    background-color: rgb(252, 227, 236);
+    border-radius: 7px;
+    margin-bottom: 25px;
+    border: none;
+    font-size: 27px;
+    text-align: right;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
-.calculadora{
-    text-align: center;
-    border: 2px solid rgb(113, 80, 231);
+.buttonsCalc{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #99bef7;
 }
 
 .operador{
-    background: blue;
-
+    background-color: #fb5d24;
+    color: white;
 }
 
+.operador:hover{
+    background-color: rgb(113, 145, 94);
+}
 
-.Calc{
+.igual{
+    background: #54b154;
+    color:rgb(255, 255, 255);
+}
 
-    background: aquamarine;
-    width: 55px;
+.igual:hover{
+    background-color: #ae6347;
+}
+
+.borrar{
+    background-color: rgb(255, 73, 73);
+    grid-column: span 4;
+}
+
+.borrar:hover{
+    background-color: crimson;
+    color: white;
 }
